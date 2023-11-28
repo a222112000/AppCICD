@@ -14,8 +14,8 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v3.13.0
         with:
-        java-version: '17'
-        distribution: 'temurin'
+          java-version: '17'
+          distribution: 'temurin'
 
       - name: Build with Gradle
         run: ./gradlew build
